@@ -2,8 +2,10 @@ function validateLogin() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
+    // Dummy validation for demonstration purposes
     if (username === 'user' && password === 'pass') {
-        window.location.replace('index.html');
+        // Redirect to the main page
+        window.location.replace('main.html');
     } else {
         alert('Invalid username or password');
     }
