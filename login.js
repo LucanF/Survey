@@ -5,7 +5,8 @@ function validateLogin() {
     // Dummy validation for demonstration purposes
     if (username === 'user' && password === 'pass') {
         // Redirect to the main page
-        window.location.replace('main.html');
+        console.log("muie");
+        window.location.replace('./main.html');
     } else {
         alert('Invalid username or password');
     }
