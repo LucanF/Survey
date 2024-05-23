@@ -16,6 +16,12 @@ h1, h2, p, #name-label, #email-label, label, #message, #submit {
 
 
 
-  body {
-    background-image: url('./assets/HKBVfx5.jpeg')
+body {
+  background-image: url('./assets/HKBVfx5.jpeg');
+  background-size: cover; /* Ensures the image covers the whole background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed; /* Makes the background stay fixed on scroll */
+  height: 100vh; /* Ensures the background takes up the full height of the viewport */
+  margin: 0;
 }
